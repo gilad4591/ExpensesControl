@@ -41,7 +41,6 @@ const ExpenseForm = (props) => {
     };
     props.onSaveExpenseData(expenseData);
     setUserInput({ enteredTitle: "", enteredAmount: "", enteredDate: "" });
-    props.onCancel();
   };
 
   return (<div>
